@@ -23,7 +23,7 @@
 `adafruit_ina219`
 ====================================================
 
-CircuitPython driver for the INA219 current sensor.
+CircuitPython/MicroPython driver for the INA219 current sensor.
 
 * Author(s): Dean Miller
 """
@@ -32,7 +32,7 @@ from micropython import const
 # from adafruit_bus_device.i2c_device import I2CDevice
 
 __version__ = "0.0.0-auto.0"
-__repo__ = "https://github.com/adafruit/Adafruit_CircuitPython_INA219.git"
+__repo__ = "https://github.com/robert-hh/INA219.git"
 
 # Bits
 # pylint: disable=bad-whitespace
