@@ -66,6 +66,6 @@ set_calibration_32V_1A()
 while True:
     current = ina.current
     voltage = ina.bus_voltage
-    print(f"{current} mA  {voltage} V")
+    print("{} mA  {} V".format(current, voltage))
     time.sleep(1)
 ```
