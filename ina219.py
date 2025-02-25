@@ -28,6 +28,7 @@ CircuitPython/MicroPython driver for the INA219 current sensor.
 * Author(s): Dean Miller
 """
 
+from machine import I2C
 from micropython import const
 # from adafruit_bus_device.i2c_device import I2CDevice
 
@@ -106,7 +107,7 @@ def _to_signed(num):
 
 class INA219:
     """Driver for the INA219 current sensor"""
-    def __init__(self, i2c_device, addr=0x40):
+    def __init__(self, i2c_device: I2C, addr: int = 0x40):
         self.i2c_device = i2c_device
 
         self.i2c_addr = addr
