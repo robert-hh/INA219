@@ -1,0 +1,7 @@
+{
+  "urls": [
+    ["ina219.py", "github:robert-hh/INA219/ina219.py"]
+  ],
+  "version": "1.0.0",
+  "deps": []
+}
